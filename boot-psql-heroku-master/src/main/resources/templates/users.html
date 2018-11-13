@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Boot PostgreSQL Demo</title>
+</head>
+<body>
+<table>
+    <th><td>Id</td><td>Name</td><td>Email</td></th>
+    <tr th:each="contact : ${userList}">
+        <td></td>
+        <td th:text="${contact.id}" ></td>
+        <td th:text="${contact.fullName}" ></td>
+        <td th:text="${contact.email}" ></td>
+    </tr>
+</table>
+</body>
+</html>
