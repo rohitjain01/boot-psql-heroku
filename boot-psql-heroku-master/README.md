@@ -13,7 +13,7 @@ This is a basic Spring Boot application with PostgreSQL database to perform foll
 Clone the source code using `git clone` command and switch to the application's directory using following command.
 ```
 $ git clone https://github.com/rohitjain01/boot-psql-heroku
-$ cd boot-psql-heroku
+$ cd boot-psql-heroku boot-psql-heroku-master
 ```
 Alternatively you can create a new Spring Boot Web Application from [Spring Initializer](http://start.spring.io/)
 
